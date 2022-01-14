@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddin10">10dp</dimen>
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="two">2</dimen>
+    <dimen name="paddin20">20dp</dimen>
+</resources>

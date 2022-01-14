@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.NewRouteActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_newRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="@dimen/paddin10">
+
+            <TextView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/one"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:drawableStart="@drawable/ic_arrow_left" />
+
+
+            <TextView
+                android:id="@+id/iv_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/one"
+                android:layout_marginRight="@dimen/margin10"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:drawableEnd="@drawable/ic_save" />
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/paddin20">
+
+
+    <EditText
+        android:id="@+id/newNameRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_route"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:maxLength="25"
+        android:layout_marginBottom="@dimen/margin20"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dificult_level" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/sp_walk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/one"
+                    android:entries="@array/levels" />
+
+                <CheckBox
+                    android:id="@+id/cbx_walk"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:layout_weight="@dimen/two"
+                    android:drawableStart="@drawable/outline_hiking_black_36" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/sp_bike"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/one"
+                    android:entries="@array/levels" />
+
+                <CheckBox
+                    android:id="@+id/cbx_bike"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/two"
+                    android:drawableStart="@drawable/outline_pedal_bike_black_36" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/one"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/sp_car"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/one"
+                    android:entries="@array/levels" />
+
+                <CheckBox
+                    android:id="@+id/cbx_car"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@dimen/two"
+                    android:drawableStart="@drawable/outline_directions_car_black_36" />
+            </LinearLayout>
+
+        <!--    <Button
+                android:id="@+id/bt_add_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_camera"
+                android:drawableLeft="@drawable/ic_camera"
+                android:onClick="onClick"
+                android:text="@string/addPicture" />-->
+
+
+            <fragment
+                android:id="@+id/new_mapView"
+                android:name="com.example.rotondeando.fragment.ShowRouteFragment"
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                app:uiZoomControls = "true"/>
+
+            <EditText
+                android:id="@+id/et_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:gravity="start|top"
+                android:hint="@string/description_route"
+                android:inputType="textMultiLine"
+                android:maxLines="4"
+                android:maxLength="200"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+</LinearLayout>

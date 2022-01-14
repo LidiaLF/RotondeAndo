@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">RotondeAndo</string>
+    <string name="tab_text_1"> Rutas </string>
+    <string name="tab_text_2"> Mapa </string>
+    <string name="name_route">Nome da Ruta</string>
+    <string name="acept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="dificult_level">Nivel de dificultade</string>
+    <string name="create_route">Crear ruta</string>
+    <string name="description_route">Descripción da ruta</string>
+    <string name="addPicture">ENGADIR IMAXES</string>
+    <string name="selectImg">Selecciona as imaxes:</string>
+    <string name="delete">ELIMINAR</string>
+    <string name="undo">DESFACER</string>
+    <string name="add">ENGADIR</string>
+    <string name="cancelCapUp">CANCELAR</string>
+    <string name="isEmptyTitle">Complete o nome da Ruta.</string>
+    <string name="check">VALIDAR</string>
+    <string name="selectMoreRotondas">Engade polo menos dúas rotondas á ruta.</string>
+    <string name="yes">SI</string>
+    <string name="no">NON</string>
+    <string-array name="levels">
+        <item> Baixo </item>
+        <item> Medio </item>
+        <item> Alto </item>
+    </string-array>
+</resources>
