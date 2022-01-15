@@ -14,7 +14,7 @@ Aplicación-Xogo que permite crear rutas en base a Rotondas (baseado nas múltip
 [![Google_maps](https://img.shields.io/badge/google%20maps-blue?style=for-the-badge&logo=google-maps&logoColor=white&labelColor=101010)]()
 
 ## Filosofía
-Como dicia o filósofo grego **Estrabón** *"Una ardilla podía cruzar la Península Ibérica de rama en rama sin tocar el suelo."*, e o meu pobo podese cruzar de rotonda en rotonda.
+Como dicia o filósofo grego **Estrabón** *"Una ardilla podía cruzar la Península Ibérica de rama en rama sin tocar el suelo."*, e, o meu pobo, podese cruzar de rotonda en rotonda.
 
 ## Descrición
 **RotondeAndo** pretende ser unha aplicación-xogo que permite crear rutas, na que os puntos clave serán as rotondas. 
