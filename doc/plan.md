@@ -16,7 +16,7 @@
 
 </br>
 <p>
-<img align="left" src="/doc/img/1.PNG" width="250"> 
+<img align="left" src="/img/1.PNG" width="250"> 
 </br>
 </br>
 </br>
@@ -31,7 +31,7 @@ Dende esta pantalla podemos:
 </p>
 
 <p>
-<img align="right" src="/doc/img/2.PNG" width="250"> 
+<img align="right" src="/img/2.PNG" width="250"> 
 </br>
 </br>
 </br>
@@ -45,7 +45,7 @@ No mapa mostranos marcados por defecto algunhas rotondas que hai pola zona.
 </br>
 </br>
 <p>
-<img align="left" src="/doc/img/3.PNG" width="250"> 
+<img align="left" src="/img/3.PNG" width="250"> 
 </br>
 </br>
 </br>
@@ -57,7 +57,7 @@ Ao seleccionar na pantalla principal algunha ruta, levanos á pantalla de esta, 
 </br>
 </br>
 <p>
-<img align="right" src="/doc/img/4.PNG" width="250"> 
+<img align="right" src="/img/4.PNG" width="250"> 
 </br>
 </br>
 </br>
